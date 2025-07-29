@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: rgb(66, 73, 80) !important;
+}
+header, main, footer {
+/*border: 1px solid blue;*/
+}
+div {
+  /*  border: 1px solid red;*/
+}
+a {
+    text-decoration: none !important;
+    color: rgb(180, 197, 197) !important;
+    margin: 5px;
+    font-size: 10px;
+}
+header, footer {
+    background-color: rgb(51, 56, 61);
+}
+.btn {
+    background-color: rgb(21, 130, 163) !important;
+    font-size: 8px !important;
+    margin: 5px !important;
+    border-color: none !important;
+}
+h4 {
+    color: white !important;
+}
+h1 {
+    color: rgb(241, 135, 14) !important;
+}
+h6 {
+    color: rgb(42, 42, 148) !important;
+}
+.enlacesProyecto {
+    border-radius: 30px;
+    background-color: rgb(72, 86, 90);
+    padding: 8px 16px;
+    border: none;
+    width: 300px;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+a:hover {
+    text-decoration: underline !important;
+    text-decoration-color: rgb(241, 135, 14) !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px !important;
+}
+.titulos {
+    text-shadow: 1px 1px 1px black;
+}
