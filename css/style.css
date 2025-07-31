@@ -1,52 +1,23 @@
-body {
-  font-family: 'Poppins', sans-serif !important;
-  background-color: rgb(66, 73, 80) !important;
+h2 {
+    background: #2A7B9B;
+    background: linear-gradient(125deg, rgba(42, 123, 155, 1) 0%, rgb(237, 152, 83) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
 }
-header, main, footer {
-/*border: 1px solid blue;*/
-}
-div {
-  /*  border: 1px solid red;*/
-}
-a {
-    text-decoration: none !important;
-    color: rgb(180, 197, 197) !important;
-    margin: 5px;
-    font-size: 10px;
-}
-header, footer {
-    background-color: rgb(51, 56, 61);
-}
-.btn {
-    background-color: rgb(21, 130, 163) !important;
-    font-size: 8px !important;
-    margin: 5px !important;
-    border-color: none !important;
-}
-h4 {
-    color: white !important;
-}
+/*body {
+    background: #707052;
+    background: linear-gradient(125deg,rgba(74, 74, 74, 1) 7%, rgba(122, 86, 61, 1) 100%);
+}*/
+/*h4 {
+    text-decoration: underline;
+    text-decoration-color: rgb(160, 150, 150, 40%);
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+}*/
 h1 {
-    color: rgb(241, 135, 14) !important;
+    font-size: 50px;
 }
-h6 {
-    color: rgb(42, 42, 148) !important;
-}
-.enlacesProyecto {
-    border-radius: 30px;
-    background-color: rgb(72, 86, 90);
-    padding: 8px 16px;
-    border: none;
-    width: 300px;
-    display: inline-block;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-a:hover {
-    text-decoration: underline !important;
-    text-decoration-color: rgb(241, 135, 14) !important;
-    text-decoration-thickness: 1px !important;
-    text-underline-offset: 3px !important;
-}
-.titulos {
-    text-shadow: 1px 1px 1px black;
+span {
+    font-size: 12px;
 }

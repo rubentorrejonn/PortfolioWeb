@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubén Rodríguez CV</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="container-fluid text-center">
-        <div class="row p-1 enlaces">
-            <div class="col">
-                <a href="">Proyectos</a>
-                <a href="">Sobre mi</a>
-                <a href="">Tecnologías</a>
-                <a href="">Contacto</a>
+<body class="bg-gradient-to-br from-slate-600 to-orange-800">
+    <header class="bg-gray-700/80 text-white">
+        <div class="flex p-4 font-[Goldman]">
+            <div class="flex-1 text-xl">
+                <h2>RUBENDEV</h2>
             </div>
+            <div class="flex flex-1 gap-4 items-center justify-center text-[9px]">
+                <div class="flex flex-col items-center">
+                    <span class="text-orange-400">01</span>
+                    <a href="">SOBRE MI</a>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-orange-400">02</span>
+                    <a class="hover:scale-105" href="">TECNOLOGÍAS</a>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-orange-400">03</span>
+                    <a href="">PROYECTOS</a>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-orange-400">04</span>
+                    <a href="">CONTACTO</a>
+                </div>
+                
+            </div>
+            <div class="flex-1"></div>
         </div>
     </header>
-    <main class="container-fluid p-0">
-        <div class="row justify-content-center titulos">
-            <div class="col-5 pt-3 text-center">
-                <h4>Rubén Rodríguez Orallo</h4>
-                <h1>Desarrollador Web</h1>
-                <input class="row btn btn-primary redesSociales" type="button" value="Linkedin" onclick="window.open('https://www.linkedin.com/in/rub%C3%A9n-rodr%C3%ADguez-orallo-358525180/', '_blank')">
-                <input class="btn btn-primary redesSociales" type="button" value="Github">
+    <main>
+        <div class="flex items-center justify-center text-lg pt-3">
+            <h4 class="text-white text-xl">RUBÉN RODRÍGUEZ ORALLO</h4>
+        </div>
+        <div class="flex items-center justify-center pt-3">
+            <h1 class="text-orange-400 text-shadow-[0_0_10px_#9E4103,0_0_30px_#f97316] font-bold">Desarrollador Web</h1>
+        </div>
+        <div class="flex items-center justify-center font-[Nunito] pt-4">
+            <span class="w-100 text-center text-white font-bold">Especializado en crear experiencias digitales excepcionales con tecnologías modernas.</span>
+        </div>
+        <div class="flex gap-3 items-center justify-center pt-5 pb-5">
+            <input class="border border-yellow-300 rounded-2xl p-1 w-15 bg-gradient-to-r from-blue-500 to-blue-300 text-white font-bold text-[10px] hover:cursor-pointer hover:scale-105" type="button" value="Linkedin" onclick="alert('Prueba')">
+            <input class="border border-yellow-300 rounded-2xl p-1 w-15 bg-gradient-to-r from-blue-500 to-blue-300 text-white font-bold text-[10px] hover:cursor-pointer hover:scale-105" type="button" value="Github" onlclick="">
+        </div>
+        <div class="flex pt-10 pb-10 items-center justify-center">
+            <p>SOBRE MÍ</p>
+        </div>
+        <div class="flex items-center justify-center">
+            <div class="flex gap-3 w-80 items-center justify-center border rounded-2xl bg-gradient-to-r from-slate-600 to-slate-500 font-[Nunito] text-[12px]">
+                <a class="text-center hover:underline text-white" href="">TODOS</a>
+                <a class="text-center hover:underline text-white" href="">FULL STACK</a>
+                <a class="text-center hover:underline text-white" href="">FRONTEND</a>
+                <a class="text-center hover:underline text-white" href="">BACKEND</a>
             </div>
         </div>
-        <div class="row proyectos">
-            <div class="col text-center m-3">
-                <div class="enlacesProyecto">
-                    <a href="">Todos</a>
-                    <a href="">Full Stack</a>
-                    <a href="">Frontend</a>
-                    <a href="">Backend</a>
-                </div>
-            </div>
-            <div class="indiceProyectos">
-                <h6>PROYECTOS</h6>
-            </div>
-            <div class="prueba">
-                <h6>FRONTEND</h6>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vero rerum nam! Mollitia cupiditate eius maiores soluta quidem corporis facere. Libero non eius esse. Illum provident magni eligendi architecto voluptate.</p>
-                <input type="button" value="Código">
-                <br>
-                <div class="skills">
-                    <span>Java</span>
-                    <span>SpringBoot</span>
-                    <span>PHP</span>
-                </div>
-            </div>
-        </div>
+        <h6>PROYECTOS</h6>
+        <h6>FRONTEND</h6>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vero rerum nam! Mollitia cupiditate eius
+            maiores soluta quidem corporis facere. Libero non eius esse. Illum provident magni eligendi architecto
+            voluptate.</p>
+        <input type="button" value="Código">
+        <br>
+        <span>Java</span>
+        <span>SpringBoot</span>
+        <span>PHP</span>
     </main>
-    <footer>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus perspiciatis tempore quaerat cumque, consequuntur deserunt quod possimus praesentium, distinctio molestiae amet esse ad aliquid, nam quibusdam! Quod, recusandae officiis?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta deleniti adipisci tenetur blanditiis, incidunt dolore accusantium maxime et eaque obcaecati nobis voluptatibus explicabo. Necessitatibus, itaque odit? Delectus, enim expedita.
+    lorem
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus perspiciatis tempore quaerat cumque, consequuntur deserunt quod possimus praesentium, distinctio molestiae amet esse ad aliquid, nam quibusdam! Quod, recusandae officiis?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta deleniti adipisci tenetur blanditiis, incidunt dolore accusantium maxime et eaque obcaecati nobis voluptatibus explicabo. Necessitatibus, itaque odit? Delectus, enim expedita.
+    loremLorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus perspiciatis tempore quaerat cumque, consequuntur deserunt quod possimus praesentium, distinctio molestiae amet esse ad aliquid, nam quibusdam! Quod, recusandae officiis?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta deleniti adipisci tenetur blanditiis, incidunt dolore accusantium maxime et eaque obcaecati nobis voluptatibus explicabo. Necessitatibus, itaque odit? Delectus, enim expedita.
+    loremLorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus perspiciatis tempore quaerat cumque, consequuntur deserunt quod possimus praesentium, distinctio molestiae amet esse ad aliquid, nam quibusdam! Quod, recusandae officiis?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta deleniti adipisci tenetur blanditiis, incidunt dolore accusantium maxime et eaque obcaecati nobis voluptatibus explicabo. Necessitatibus, itaque odit? Delectus, enim expedita.
+    loremLorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus perspiciatis tempore quaerat cumque, consequuntur deserunt quod possimus praesentium, distinctio molestiae amet esse ad aliquid, nam quibusdam! Quod, recusandae officiis?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta deleniti adipisci tenetur blanditiis, incidunt dolore accusantium maxime et eaque obcaecati nobis voluptatibus explicabo. Necessitatibus, itaque odit? Delectus, enim expedita.
+    lorem
+    <footer class="flex bg-white">
         <p>© 2025 Rubén. Portfolio personal.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
